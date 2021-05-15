@@ -164,7 +164,7 @@ function draw()
     Player.destroy();
   }
   
-  if(PlayerHealth <= 0)
+  if(playerHealth <= 0)
   {
     bodyguardGroup.destroyEach();
   }
